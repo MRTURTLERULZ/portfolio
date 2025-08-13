@@ -34,7 +34,7 @@ export default function AboutPage() {
                 Background
               </h2>
               <p className="text-slate-600 leading-relaxed text-lg mb-4">
-                I'm a mechanical engineering student at CCNY with a passion for bringing ideas to life through 
+                I&apos;m a mechanical engineering student at CCNY with a passion for bringing ideas to life through 
                 CAD design, 3D printing, electronics, and programming. I love working at the intersection of 
                 hardware and software, creating practical solutions to real-world problems.
               </p>

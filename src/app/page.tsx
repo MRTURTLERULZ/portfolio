@@ -18,25 +18,25 @@ export default function Home() {
               </p>
             </div>
             <div className="flex flex-wrap gap-4">
-              <a 
+              <Link 
                 className="group relative rounded-2xl px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-medium shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-200" 
                 href="/projects"
               >
                 <span className="relative z-10">View Projects</span>
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-700 to-indigo-700 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
-              </a>
-              <a 
+              </Link>
+              <Link 
                 className="group rounded-2xl px-6 py-3 border-2 border-slate-300 text-slate-700 font-medium hover:border-blue-300 hover:text-blue-700 hover:bg-blue-50 transition-all duration-200" 
                 href="/files"
               >
                 Downloads
-              </a>
-              <a 
+              </Link>
+              <Link 
                 className="group rounded-2xl px-6 py-3 border-2 border-slate-300 text-slate-700 font-medium hover:border-blue-300 hover:text-blue-700 hover:bg-blue-50 transition-all duration-200" 
                 href="/about"
               >
                 About
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -141,7 +141,7 @@ export default function Home() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-2">
-            {projects.slice(0, 2).map((project, index) => (
+            {projects.slice(0, 2).map((project) => (
               <div key={project.slug} className="group bg-white/70 backdrop-blur-sm rounded-3xl overflow-hidden shadow-lg border border-white/20 hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300">
                 <div className="relative aspect-[16/10] overflow-hidden">
                   <Image src={project.cover} alt={project.title} fill className="object-cover group-hover:scale-110 transition-transform duration-500" />
@@ -191,9 +191,9 @@ export default function Home() {
         {/* Contact CTA */}
         <section className="mt-24">
           <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-3xl p-12 text-center text-white">
-            <h2 className="text-3xl font-bold mb-4">Let's Build Something Amazing Together</h2>
+            <h2 className="text-3xl font-bold mb-4">Let&apos;s Build Something Amazing Together</h2>
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-              I'm always interested in new challenges and collaborations. Whether you have an engineering project, need a Unity developer, or want to discuss startup ideas, let's talk!
+              I&apos;m always interested in new challenges and collaborations. Whether you have an engineering project, need a Unity developer, or want to discuss startup ideas, let&apos;s talk!
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Link 
