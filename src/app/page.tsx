@@ -17,26 +17,37 @@ export default function Home() {
                 Passionate about combining engineering principles with modern technology to create innovative solutions.
               </p>
             </div>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-2">
               <Link 
-                className="group relative rounded-2xl px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-medium shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-200" 
+                className="group relative rounded-xl px-4 py-2.5 bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-sm font-medium shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-200 whitespace-nowrap" 
                 href="/projects"
               >
                 <span className="relative z-10">View Projects</span>
-                <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-700 to-indigo-700 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+                <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-blue-700 to-indigo-700 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
               </Link>
               <Link 
-                className="group rounded-2xl px-6 py-3 border-2 border-slate-300 text-slate-700 font-medium hover:border-blue-300 hover:text-blue-700 hover:bg-blue-50 transition-all duration-200" 
+                className="group rounded-xl px-4 py-2.5 border-2 border-slate-300 text-slate-700 text-sm font-medium hover:border-blue-300 hover:text-blue-700 hover:bg-blue-50 transition-all duration-200 whitespace-nowrap" 
                 href="/files"
               >
                 Downloads
               </Link>
               <Link 
-                className="group rounded-2xl px-6 py-3 border-2 border-slate-300 text-slate-700 font-medium hover:border-blue-300 hover:text-blue-700 hover:bg-blue-50 transition-all duration-200" 
+                className="group rounded-xl px-4 py-2.5 border-2 border-slate-300 text-slate-700 text-sm font-medium hover:border-blue-300 hover:text-blue-700 hover:bg-blue-50 transition-all duration-200 whitespace-nowrap" 
                 href="/about"
               >
                 About
               </Link>
+              <a 
+                href="https://calendar.app.google/PgcycNeGSs7LThsN8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group rounded-xl px-4 py-2.5 bg-gradient-to-r from-green-600 to-emerald-600 text-white text-sm font-medium hover:from-green-700 hover:to-emerald-700 transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-1.5 transform hover:-translate-y-0.5 whitespace-nowrap"
+              >
+                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                Book Meeting
+              </a>
             </div>
           </div>
 
