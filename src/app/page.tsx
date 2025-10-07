@@ -77,7 +77,7 @@ export default function Home() {
               <h3 className="text-lg font-bold text-slate-900 mb-2">Download Resume</h3>
               <p className="text-slate-600 text-sm mb-4">Get my complete professional background</p>
               <a 
-                href="/documents/resume.pdf" 
+                href="/documents/Master Resume 10_6.pdf" 
                 download
                 className="inline-flex items-center gap-2 rounded-2xl px-6 py-3 bg-gradient-to-r from-green-600 to-emerald-600 text-white font-medium hover:from-green-700 hover:to-emerald-700 transform hover:-translate-y-1 transition-all duration-200 shadow-lg hover:shadow-xl"
               >
